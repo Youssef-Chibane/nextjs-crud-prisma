@@ -23,7 +23,7 @@ export default async function ProductsPage() {
                 {product.name}
               </h2>
               <p className="text-lg text-gray-600 mt-2">${product.price}</p>
-              <Link href={`/products/${product.id}`}>
+              <Link href={`/products/${product.slug}`}>
                 <button className="mt-4 w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 rounded-lg">
                   View
                 </button>
